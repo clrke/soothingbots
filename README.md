@@ -1,6 +1,6 @@
 # Soothing Bots website
 
-The public site for **Soothing Bots**, a mixed-reality music game for Meta Quest 3 and 3S:
+The public site for **Soothing Bots**, a mixed-reality music game for Meta Quest:
 https://clrke.github.io/soothingbots/
 
 - `index.html`: the homepage. Hand-written HTML and CSS (`style.css`), no build step, no frameworks, no trackers, no
@@ -15,6 +15,7 @@ https://clrke.github.io/soothingbots/
     -V updated="$(sed -n 's/^\*\*Effective date:\*\* *//p' "$SRC")" "$SRC" -o privacy.html
   ```
 
-- `img/`: screenshots and frames from the game's own store screenshots and trailer drafts (WebP, under 300 KB each).
+- `img/`: frames from the app's own editor captures (the hype recorder's 1440p airplane take and the `CaptureScreens_Qr`
+  share view), in the friendly look (WebP at quality 80, under 300 KB each; `og.jpg` 1200x630 for link previews).
 
 Served by GitHub Pages from the `main` branch root (`.nojekyll` keeps Jekyll out of the way).
