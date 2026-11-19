@@ -30,9 +30,9 @@
   <main id="main" class="doc">
     <div class="wrap">
       <article>
-        <p class="updated">Last updated: 30 October 2026</p>
+        <p class="updated">Last updated: 20 November 2026</p>
 <h1 id="soothing-bots-privacy-policy">Soothing Bots Privacy Policy</h1>
-<p><strong>Effective date:</strong> 30 October 2026<br />
+<p><strong>Effective date:</strong> 20 November 2026<br />
 <strong>Developer and publisher:</strong> Clarke Plumo<br />
 ("we", "us")<br />
 <strong>Contact:</strong> <a href="mailto:clarke.plumo@gmail.com"
@@ -40,124 +40,261 @@ class="email">clarke.plumo@gmail.com</a></p>
 <p>Soothing Bots is a mixed-reality music game for Meta Quest: a choir
 of friendly robot heads sings songs you wake, mute and arrange with your
 hands. It is made for players aged 10 and up: teens and adults, and
-children aged 10 to 12 (section 7). This policy explains what the game
-does with information about you. The short version: the game itself
-collects nothing about you. It has no accounts, no ads and no servers of
-ours, and it sends nothing about you to us or to anyone else (the
-software it is built with may send diagnostics to Meta or Unity: section
-6). Your hand, eye and camera data are used on your headset only and are
-never stored or sent anywhere.</p>
-<h2 id="information-stored-on-your-headset-only">1. Information stored
-on your headset only</h2>
-<p>The game saves your songs (projects and your edits), the robots'
-places in your room, settings, your diamond balance, the daily-diamond
-timer and a record of the purchases already granted. This data stays on
-your headset; we never receive it. Uninstalling the game deletes it.</p>
-<p><strong>Robot places in your room.</strong> To keep the robots where
-you put them, the game uses the headset's spatial anchors. The anchors
-and their positions are stored on your headset only.</p>
-<h2 id="hand-tracking">2. Hand tracking</h2>
-<p>The game reads your hand and finger positions from the headset's hand
-tracking: pinching, poking buttons, carrying robots, hand signs (such as
-a wave or thumbs up) and hand games with the robots. It uses them frame
-by frame on your headset and does not store or send them.</p>
-<h2 id="eye-tracking-only-on-devices-that-have-it">3. Eye tracking (only
-on devices that have it)</h2>
-<p>On a headset with eye tracking (for example Meta Quest Pro), and only
-if you allow it when the system asks, the game uses where you look to
-pick the robot or button you pinch. Gaze is used on your headset, frame
-by frame, only for this. It is never stored or sent, never shared, and
-never used for advertising, profiling or analytics. Without eye tracking
-(Meta Quest 3 and 3S have none), or if you decline, the game uses your
-head direction instead. You can turn eye tracking off at any time in
-your headset's settings.</p>
-<h2 id="passthrough-camera-import-by-qr-only">4. Passthrough camera
-(Import by QR only)</h2>
-<p>Songs can be shared as a QR code. <strong>Import by QR</strong> uses
-the headset's passthrough cameras (Meta Quest 3 and 3S), and only with
-your permission: the game asks the first time you tap Import by QR.
-While you scan, camera images are processed on your headset only to read
-the QR code; each image is discarded immediately. Camera images are
-never stored, never sent over the network, never shared and never used
-for anything else. The camera stops as soon as you close the scanner.
-You can instead type a song's text code, and you can withdraw the camera
-permission at any time in your headset's settings.</p>
-<p>The QR code and text code contain only the song (its settings and
-your edits), never information about you.</p>
-<h2 id="what-the-game-does-not-do">5. What the game does not do</h2>
+children aged 10 to 12 (section 6). This policy explains exactly what
+data the game collects and processes, what it is used for, where it is
+kept, for how long, and how you can ask for it to be deleted.</p>
+<p><strong>In short.</strong> The game collects and processes some data
+about you: through Meta's platform it checks that your copy is genuine,
+sells and grants diamonds (in-app purchases) and reads your Meta
+account's age category; on your headset it saves your songs, settings,
+diamonds and a record of your purchases; and it uses your hands (and, if
+you allow it, your eyes and the passthrough camera) live while you play.
+We have no servers and no accounts of our own: the game does not send
+any of this data to us, and we do not sell or share it with anyone. It
+has no ads and no analytics of ours.</p>
+<h2 id="data-the-app-collects-and-processes">1. Data the app collects
+and processes</h2>
+<p>For each kind of data: what it is, where it comes from, what it is
+used for, where it is kept, whether it is shared, and how long it is
+kept.</p>
+<h3 id="purchase-data-in-app-purchases-of-diamonds">1.1 Purchase data:
+in-app purchases of diamonds</h3>
 <ul>
-<li>No account or sign-up with us. We collect no name, email, date of
-birth, location, contacts or payment details (the age category from
-Meta: section 7).</li>
+<li><strong>What:</strong> the diamond packs on sale and their prices in
+your currency; the diamond purchases made with your Meta account in this
+game (for each one: Meta's purchase ID, which pack it was, when it was
+granted, and whether it has been used up). Payment details (card,
+billing address) are handled entirely by Meta and are never seen by the
+game.</li>
+<li><strong>Source:</strong> Meta's Platform SDK (In-App Purchases),
+from your Meta account.</li>
+<li><strong>Purpose:</strong> to show the shop, start Meta's checkout
+when you buy a pack, and add the diamonds you bought to your balance
+exactly once (so a purchase is never lost or granted twice).</li>
+<li><strong>Where it is kept:</strong> the game keeps a record of the
+purchases it has granted, and your diamond balance, in its own storage
+on your headset. Meta keeps the purchase itself with your Meta
+account.</li>
+<li><strong>Shared:</strong> no. The game does not send it to us or
+anyone else. Meta processes the purchase under its own privacy policy
+(section 4).</li>
+<li><strong>How long:</strong> the record on your headset is kept until
+you uninstall the game or clear its data. Meta keeps its records under
+its own policy.</li>
+</ul>
+<h3 id="ownership-check-entitlement">1.2 Ownership check
+(entitlement)</h3>
+<ul>
+<li><strong>What:</strong> a yes/no answer from Meta: does the Meta
+account on this headset own the game?</li>
+<li><strong>Source:</strong> Meta's Platform SDK (Entitlements).</li>
+<li><strong>Purpose:</strong> to check at launch that your copy is
+genuine. It is never used to offer you anything.</li>
+<li><strong>Where it is kept:</strong> in the game's memory only, while
+it runs. It is never written to the headset.</li>
+<li><strong>Shared:</strong> no.</li>
+<li><strong>How long:</strong> forgotten when the game closes.</li>
+</ul>
+<h3 id="your-meta-accounts-age-category">1.3 Your Meta account's age
+category</h3>
+<ul>
+<li><strong>What:</strong> Meta's age category for the Meta account in
+use: child aged 10 to 12, teen, adult, or unknown.</li>
+<li><strong>Source:</strong> Meta's Platform SDK (User Age
+Category).</li>
+<li><strong>Purpose:</strong> only to hide the diamond shop and every
+way to buy diamonds from children aged 10 to 12 (section 6). It is used
+for nothing else.</li>
+<li><strong>Where it is kept:</strong> in the game's memory only, while
+it runs. It is never written to the headset.</li>
+<li><strong>Shared:</strong> no.</li>
+<li><strong>How long:</strong> forgotten when the game closes; the game
+asks Meta again the next time it starts.</li>
+</ul>
+<h3 id="your-meta-account-identifier">1.4 Your Meta account
+identifier</h3>
+<ul>
+<li><strong>What:</strong> the app-scoped user ID that Meta's platform
+uses to identify your Meta account to this game.</li>
+<li><strong>Source:</strong> Meta's Platform SDK.</li>
+<li><strong>Purpose:</strong> Meta's platform uses it to answer the
+game's requests above (your purchases, ownership and age category belong
+to your account). The game's own code does not read, display or save
+your user ID, and does not use it to identify or track you.</li>
+<li><strong>Where it is kept:</strong> held by Meta. The game does not
+store it.</li>
+<li><strong>Shared:</strong> no.</li>
+<li><strong>How long:</strong> the game keeps nothing; Meta keeps it
+under its own policy.</li>
+</ul>
+<h3 id="your-songs-settings-and-game-progress">1.5 Your songs, settings
+and game progress</h3>
+<ul>
+<li><strong>What:</strong> your songs (projects and your edits), the
+robots' places in your room (the headset's spatial anchors and their
+positions), your settings and tips already seen, your diamond balance
+and the daily free-diamond timer.</li>
+<li><strong>Source:</strong> you and the game, on the headset.</li>
+<li><strong>Purpose:</strong> to keep your songs, robots and diamonds
+the way you left them.</li>
+<li><strong>Where it is kept:</strong> on your headset only. We never
+receive it.</li>
+<li><strong>Shared:</strong> no. (You can choose to share a song
+yourself as a QR code or text code; it contains only the song's settings
+and your edits, never information about you.)</li>
+<li><strong>How long:</strong> until you uninstall the game or clear its
+data.</li>
+</ul>
+<h3 id="hand-tracking">1.6 Hand tracking</h3>
+<ul>
+<li><strong>What:</strong> your hand and finger positions from the
+headset's hand tracking.</li>
+<li><strong>Source:</strong> the headset.</li>
+<li><strong>Purpose:</strong> pinching, poking buttons, carrying robots,
+hand signs (such as a wave or thumbs up) and hand games with the
+robots.</li>
+<li><strong>Where it is kept:</strong> processed frame by frame on your
+headset, in memory only. Never stored.</li>
+<li><strong>Shared:</strong> no. Never sent anywhere.</li>
+<li><strong>How long:</strong> discarded immediately.</li>
+</ul>
+<h3
+id="eye-tracking-only-on-headsets-that-have-it-and-only-if-you-allow-it">1.7
+Eye tracking (only on headsets that have it, and only if you allow
+it)</h3>
+<ul>
+<li><strong>What:</strong> where you are looking.</li>
+<li><strong>Source:</strong> the headset's eye tracking (for example
+Meta Quest Pro), only if you allow it when the system asks. Meta Quest
+2, 3 and 3S have no eye tracking.</li>
+<li><strong>Purpose:</strong> only to pick the robot or button you
+pinch. Without eye tracking, or if you decline, the game uses your head
+direction instead.</li>
+<li><strong>Where it is kept:</strong> processed frame by frame on your
+headset, in memory only. Never stored.</li>
+<li><strong>Shared:</strong> no. Never sent anywhere, and never used for
+advertising, profiling or analytics.</li>
+<li><strong>How long:</strong> discarded immediately. You can turn eye
+tracking off at any time in your headset's settings.</li>
+</ul>
+<h3 id="passthrough-camera-images-import-by-qr-only">1.8 Passthrough
+camera images (Import by QR only)</h3>
+<ul>
+<li><strong>What:</strong> images from the headset's passthrough cameras
+(Meta Quest 3 and 3S).</li>
+<li><strong>Source:</strong> the headset, only with your permission: the
+game asks the first time you tap <strong>Import by QR</strong>.</li>
+<li><strong>Purpose:</strong> only to read a song's QR code while you
+scan. The camera stops as soon as you close the scanner.</li>
+<li><strong>Where it is kept:</strong> processed on your headset, in
+memory only. Never stored.</li>
+<li><strong>Shared:</strong> no. Never sent over the network and never
+used for anything else.</li>
+<li><strong>How long:</strong> each image is discarded immediately. You
+can type a song's text code instead, and you can withdraw the camera
+permission at any time in your headset's settings.</li>
+</ul>
+<h2 id="what-the-app-does-not-collect-or-do">2. What the app does not
+collect or do</h2>
+<ul>
+<li>No account or sign-up with us. We do not ask for your name, email,
+date of birth, location, contacts or payment details.</li>
 <li>No microphone use: the robots sing, you don't have to.</li>
+<li>No profile, friends or other Meta account data: the game uses only
+the Meta platform features listed in section 1.</li>
 <li>No advertising, no ad identifiers, no tracking across apps.</li>
-<li>No analytics, telemetry or crash reports of ours: the game itself
-sends nothing to us or to third parties. (Meta's platform and SDK, and
-Unity's engine, may collect diagnostics of their own: section 6.)</li>
+<li>No analytics, telemetry or crash reports of ours. (Meta and Unity
+may collect diagnostics of their own: section 3.)</li>
 <li>No selling or sharing of personal information.</li>
 </ul>
-<h2 id="meta-and-in-game-purchases">6. Meta and in-game purchases</h2>
-<p>Meta operates the Meta Horizon Store and your headset. Meta handles
-your data (your Meta account, payments, device data) under its own
-privacy policy: <a href="https://www.meta.com/legal/privacy-policy/"
-class="uri">https://www.meta.com/legal/privacy-policy/</a>.</p>
-<p><strong>Diagnostics by Meta and Unity.</strong> The game is built
-with Meta's XR SDK (which includes Meta's own telemetry) and Unity. The
-game itself sends nothing, but Meta's platform and SDK may collect
-diagnostics and usage information about the app and your headset, under
-Meta's privacy policy above, and Unity's engine diagnostics are switched
-on, so basic crash and engine diagnostics may go to Unity under its
-privacy policy: <a href="https://unity.com/legal/privacy-policy"
+<h2 id="diagnostics-by-meta-and-unity">3. Diagnostics by Meta and
+Unity</h2>
+<p>The game is built with Meta's XR SDK (which includes Meta's own
+telemetry) and the Unity engine. The game itself sends nothing to us,
+but Meta's platform and SDK may collect diagnostics and usage
+information about the app and your headset, under Meta's privacy policy
+(section 4). Unity's engine diagnostics are switched on, so basic engine
+and device diagnostics may go to Unity under its privacy policy: <a
+href="https://unity.com/legal/privacy-policy"
 class="uri">https://unity.com/legal/privacy-policy</a>. We do not
 receive this data. The game uses no Unity Analytics, no Unity
 advertising and no other third-party analytics or advertising
 service.</p>
-<p>The game uses Meta's Platform SDK for three things: to check that
-your copy is genuine, to sell and grant diamonds (in-game purchases),
-and to ask Meta for your Meta account's age category (section 7).
-Through it the game receives your Meta user ID for this app, your
-purchases in this game and that age category. Payments are handled
-entirely by Meta; the game never sees your payment details. The game
-does not request your profile, friends or any other Meta platform
-data.</p>
-<h2 id="ages-and-children">7. Ages and children</h2>
+<h2 id="meta">4. Meta</h2>
+<p>Meta operates the Meta Horizon Store, the Meta platform services the
+game uses (section 1.1 to 1.4) and your headset. Meta handles your Meta
+account, payments, purchases, age information and device data under its
+own privacy policy: <a href="https://www.meta.com/legal/privacy-policy/"
+class="uri">https://www.meta.com/legal/privacy-policy/</a>.</p>
+<h2 id="how-to-request-deletion-of-your-data">5. How to request deletion
+of your data</h2>
+<p><strong>Ask us.</strong> Email <a
+href="mailto:clarke.plumo@gmail.com"
+class="email">clarke.plumo@gmail.com</a> with the subject <strong>"Data
+deletion – Soothing Bots"</strong>. We will answer within 30 days. We do
+not run servers or keep a copy of your data, so we will tell you exactly
+how to remove what exists and help with anything that is unclear. We do
+not need any personal details from you beyond your email, and we will
+not keep your request longer than needed to answer it.</p>
+<p><strong>What deleting means for this game:</strong></p>
+<ul>
+<li><strong>Data on your headset</strong> (songs, settings, robot
+places, diamond balance, daily-diamond timer and the record of granted
+purchases, section 1.1 and 1.5): delete it yourself at any time by
+uninstalling the game, or by clearing the game's storage in your
+headset's app settings, where your headset offers it. This removes it
+completely; we hold no other copy. Note that your diamond balance,
+including diamonds you bought, is lost when this data is deleted.</li>
+<li><strong>Data used live</strong> (hand tracking, eye tracking, camera
+images, the ownership check and the age category, section 1.2, 1.3, 1.6
+to 1.8): never stored, so there is nothing left to delete once the game
+closes.</li>
+<li><strong>Data held by Meta</strong> (your purchase and ownership
+records, your Meta account identifier and age information, section 1.1
+to 1.4): these belong to your Meta account and are kept by Meta, not by
+us. You can see, download or delete your Meta account data, or delete
+your Meta account, with Meta's tools:
+<ul>
+<li>Meta Accounts Center: <a href="https://accountscenter.meta.com/"
+class="uri">https://accountscenter.meta.com/</a> (Your information and
+permissions)</li>
+<li>Deleting your Meta account or Meta Horizon profile: <a
+href="https://www.meta.com/help/quest/articles/accounts/account-settings-and-management/delete-meta-account/"
+class="uri">https://www.meta.com/help/quest/articles/accounts/account-settings-and-management/delete-meta-account/</a></li>
+<li>Meta's privacy policy, including how to contact Meta about your
+data: <a href="https://www.meta.com/legal/privacy-policy/"
+class="uri">https://www.meta.com/legal/privacy-policy/</a></li>
+</ul></li>
+</ul>
+<h2 id="ages-and-children">6. Ages and children</h2>
 <p>Soothing Bots is for players aged 10 and up. On the Meta Horizon
 Store it is listed for <strong>Mixed Ages</strong>: teens and adults (13
 and over) and children aged 10 to 12. It is not meant for children under
 10, and Meta does not allow children under 10 to use Meta Quest.</p>
 <p><strong>Players aged 10 to 12 can't make purchases.</strong> Each
 time the game starts, it asks Meta for the age category of the Meta
-account in use (child aged 10 to 12, teen, adult, or unknown). The game
-uses the answer for this one thing only: when Meta says the account
-belongs to a child aged 10 to 12, the diamond shop and every way to buy
-diamonds are hidden, and the game says when the next free diamond comes
-instead. The free daily diamond and everything else work as for
-everyone. The answer is kept in the game's memory while it runs and
-forgotten when it closes; it is never written to the headset, never sent
-to us or anyone else, and never used for anything else. When Meta gives
-no answer (for example offline), the game treats the player as 13 or
-older.</p>
-<p>The game itself collects no personal information from anyone,
-including children. Meta handles Meta accounts, their ages, purchases
-and parental supervision (for example Meta's Family Center) under its
-own privacy policy (section 6). A parent or guardian should set up and
-supervise the headset for players aged 10 to 12.</p>
-<h2 id="retention-and-deletion">8. Retention and deletion</h2>
-<ul>
-<li>Songs, settings, robot places and purchase records on your headset:
-kept until you uninstall the game.</li>
-<li>Hand, gaze and camera data, and the age category from Meta: not kept
-(used live, then discarded).</li>
-<li>We hold no data about you, so there is nothing for us to delete. For
-Meta-held data, see Meta's privacy policy.</li>
-</ul>
-<h2 id="your-rights">9. Your rights</h2>
+account in use (section 1.3). When Meta says the account belongs to a
+child aged 10 to 12, the diamond shop and every way to buy diamonds are
+hidden, and the game says when the next free diamond comes instead. The
+free daily diamond and everything else work as for everyone. When Meta
+gives no answer (for example offline), the game treats the player as 13
+or older.</p>
+<p>The game processes the same data for every player, as described in
+section 1, and sends none of it to us. Meta handles Meta accounts, their
+ages, purchases and parental supervision (for example Meta's Family
+Center) under its own privacy policy (section 4). A parent or guardian
+should set up and supervise the headset for players aged 10 to 12, and
+can request deletion as described in section 5.</p>
+<h2 id="your-rights">7. Your rights</h2>
 <p>Depending on where you live (for example under the GDPR or the
-CCPA/CPRA), you may have rights to access, correct or delete personal
-information. We do not process personal information outside your
-headset, but contact us with any question and we will answer within 30
-days.</p>
-<h2 id="changes">10. Changes</h2>
+CCPA/CPRA), you may have rights to access, correct or delete your
+personal information, or to object to its use. Because the game keeps
+your data on your headset and Meta keeps your account data, most of
+these rights are exercised on the headset (section 5) or with Meta
+(section 4). Contact us at <a href="mailto:clarke.plumo@gmail.com"
+class="email">clarke.plumo@gmail.com</a> with any request or question
+and we will answer within 30 days.</p>
+<h2 id="changes">8. Changes</h2>
 <p>If this policy changes, the new version will be posted at this
 address with a new effective date.</p>
 <h2 id="contact">Contact</h2>
